@@ -1,84 +1,108 @@
 
 // TODO: Include packages needed for this application
-const inq = require('inquirer');
-const chalk = require('chalk');
+const {prompt} = require('inquirer');
 const fs = require('fs');
-
-
+//const chalk = require('chalk');
 
 //my list of quesiton 
 const questions = [
 
     {
         type: 'input',
+        name: 'title',
         message: 'What is the title of your project?',
-        name: 'Title',
         default: 'README Generator'
     },
+    
     {
         type: 'input',
+        name: 'description',
         message: 'What is your project all about?',
-        name: 'Description',
         default: 'Creates a README File'
     },
+
     {
         type: 'input',
+        name: 'installation',
         message: 'How do you install your application?',
-        name: 'Installation',
         default: 'Copy the repository to your system, install inquirer, run: node index.js'
     },
+
     {
         type: 'input',
+        name: 'usage',
         message: 'What is your application used for?',
-        name: 'Usage',
         default: 'creating a README File'
     },
+
     {
         type: 'list',
+        name: 'license',
         message: 'What kind of license is used?',
-        name: 'License',
-        choices: ['BSD', 'MIT', 'GPL', 'None']
+        choices: ['BSD', 'MIT', 'GPL', 'None'],
+        default: 'MIT'
     },
+
     {
         type: 'input',
+        name: 'contributing',
         message: 'What are the guidelines to contributing?',
-        name: 'Contributing',
-        default: 'Practice, practice, practice'
+        default: 'Practice, eat, sleep, workout, repeat'
     },
+
     {
         type: 'input',
+        name: 'tests',
         message: 'How can I test your application?',
-        name: 'Tests',
-        default: 'Terminal window'
+       default: 'Terminal window'
     },
+
+    {
+        type: 'inpu',
+        name: 'deploy link',
+        message: 'What is the link to your deployed project?',
+        default: "https://www.linkedin.com/in/luna-kiira-luna-kiira-19971109lk/"
+    },
+
     {
         type: 'input',
+        name: 'github',
         message: 'What is your Github username?',
-        name: 'Github',
         default: 'Kiira2125'
     },
+
     {
         type: 'input',
+        name: 'email',
         message: 'What is your email address?',
-        name: 'Email',
         default: 'lunakiira0911@gmail.com'
     },
 ];
+
+// TODO: create a prompt and then repose with print response by using my
+//default answers.
+
+prompt(questions).then((response) => console.log(response))
 // TODO: Create a function to write README file  /(fileName, data) = previous parameters
+// TODO: create fuctions for he questions
 function createReadme(answers) {
     fs.writeFileSync ('./README.md',`
-    # ${answers.title}
     ## Project title
-    ${answers.description}
+    ${answers.title}
     ## Descripion
-    ${answers.installation}
+    ${answers.description}
     ## Installation instructions
-    ${answers.usage}
+    ${answers.installation}
     ## Usage
-    ${answers.contribute}
+    ${answers.usage}
+    ##License
+    ${answers.license}
     ## Guidelines Contribution
-    ${answers.link}
+    ${answers.contribute}
+    ## Test your app
+    ${answers.test}
     ## Deploy Link
+    [deploy link](${answers.link})
     ${answers.githubUsername}
     ## Github username?
     ${answers.email}
@@ -105,11 +129,4 @@ inq
     }
    
 });
-
-
-// Function call to initialize app
-init();
-
-
-    //createReadme('🍙🍛');
-
+}
