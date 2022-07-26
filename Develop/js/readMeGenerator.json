@@ -1,0 +1,18 @@
+{
+    "liveServer.settings.port": 5501
+}
+{
+	"project": "README Generator",
+	"description": "Creates a README.md thru a node.js CLI",
+	"preview": "../../assets/images/READMEGenDemoGif1.gif",
+	"install": "Copy the repository to your system, npm install",
+	"usage": "Quickly and easily create a README.md for one'sproject",
+	"license": [
+		"MIT"
+	],
+	"contribute": "Be consistent, be patient, be incontrol, be kind to yourself and take a deep breath if you feel stuck, 
+    never stop coding daily for a few hours, its food for your brain \u{1F609}",
+	"test": "In the terminal window, run: node index.js",
+	"github": "Kiira2125",
+	"email": "lunakiira0911@gmail.com"
+}
