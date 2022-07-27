@@ -1,18 +1,12 @@
 {
-    "liveServer.settings.port": 5501
-}
-{
 	"project": "README Generator",
-	"description": "Creates a README.md thru a node.js CLI",
-	"preview": "../../assets/images/READMEGenDemoGif1.gif",
-	"install": "Copy the repository to your system, npm install",
-	"usage": "Quickly and easily create a README.md for one'sproject",
-	"license": [
-		"MIT"
-	],
-	"contribute": "Be consistent, be patient, be incontrol, be kind to yourself and take a deep breath if you feel stuck, 
-    never stop coding daily for a few hours, its food for your brain \u{1F609}",
-	"test": "In the terminal window, run: node index.js",
+	"description": "Creates a README File in js using node",
+	"installation": "Copy the repo to your system, install inquirer, run: node index on terminal",
+	"usage": "Application is use for creating a README File in node",
+	"license": "MIT",
+	"contributing": "Practice coding, eat, sleep, workout, and, repeat",
+	"tests": "Terminal window input node i then node index to run program",
+	"deploy link": "https://www.linkedin.com/in/luna-kiira-luna-kiira-19971109lk/",
 	"github": "Kiira2125",
 	"email": "lunakiira0911@gmail.com"
 }

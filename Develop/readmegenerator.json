@@ -1,0 +1,12 @@
+{
+	"project": "README Generator",
+	"description": "Creates a README File",
+	"installation": "Copy the repository to your system, install inquirer, run: node index.js",
+	"usage": "creating a README File",
+	"license": "MIT",
+	"contributing": "Practice, eat, sleep, workout, repeat",
+	"tests": "Terminal window",
+	"deploy link": "https://www.linkedin.com/in/luna-kiira-luna-kiira-19971109lk/",
+	"github": "Kiira2125",
+	"email": "lunakiira0911@gmail.com"
+}

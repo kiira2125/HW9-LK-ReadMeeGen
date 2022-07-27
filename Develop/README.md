@@ -1,59 +1,44 @@
-# ReadMeGen(NodeJS)Homework
+# README Generator
+License Chosen **MIT License**
+
+## Table of Contents
+
+     *[Description](#description)
+     *[Application](#application)
+     *[installation](#installation)
+     *[Usage](#usage)
+     *[Contribute](#contributing)
+     *[Test-Instructions](#test-Instructions)
+     *[Question](#question)
+     *[license](#license)S
+     
+## Description
+
+* Creates a README File
 
 
-** Asked to Create a command-line app, which dynamically generates a professional README.md type file from a user's input. This is accomplish by using the [Inquirer package](https://www.npmjs.com/package/inquirer)
+## AppSneakPreview
+        <p align="center">
+    <img alt ='ReadME Generator Demo src="undefined"></p>
 
-# App  Preview
+## Installation
+*undefined*
 
-<p align="left">
-    <img alt="README Gen Part I>
-</p>
+## Usage
+*creating a README File*
 
-<p align="left">
-    <img alt="README Gen Part II ">
-</p>
+## Contribute
+ *Practice, eat, sleep, workout, repeat*
 
-<p align="left">
-    <img alt="README Gen Part II">
-</p>
+## Test-Instructions
+*Run terminal, type in node index. Answer quesitons or press enter for auto default input*
 
-<p align="left">
-    <img alt="README Gen Part IV">
-</p>
+## The questions
 
-# My Links
+   #Any questions? Please contact me:
+     -GitHub Username: **Kiira2125**-
+     -GitHub Link: **https://github.com/Kiira2125**-
+     -Email: **lunakiira0911@gmail.com**-
 
--   GitHub Repository:
-    -   
--   Video Demo (YouTube):
-    -  
--   Video Demo (GitHub):
-    -    
--   Generated README:
-    -   https://kiira2125.github.io/HW9-LK-ReadMeeGen/
-
-# Criteria
-
-*Inquirer
-*CLI accepts user input
-## User Inputs gets created with:
-
-    #  Title of Project
-        *   Text Input
-    #   Table of Contents
-        *   Clickable links to each section
-    #   Installation
-        *  Text Input
-    #   Usage
-        *  Text Input
-    #   License
-        *   List of Options
-        *  A badge for that license is added near the to of the README
-    #   Contributing
-        *   Text Input
-    #   Tests
-        *   Text Input
-    #   Questions
-        *   Text Input
-        *   Enter GitHub Username
-        *   Enter Email
+## License
+  * Licensed under the: MIT License
